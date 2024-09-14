@@ -1,0 +1,19 @@
+/* Session Component Styles */
+.session-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.session-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.session-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none

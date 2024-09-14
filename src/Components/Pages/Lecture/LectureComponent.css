@@ -1,0 +1,45 @@
+/* Lecture Component Styles */
+.lecture-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.lecture-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.lecture-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.lecture-form button:hover {
+    background-color: #0056b3;
+}
+
+.lecture-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lecture-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+.lecture-item button {
+    margin-left: 10px;
+}
